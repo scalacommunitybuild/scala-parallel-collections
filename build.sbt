@@ -9,7 +9,9 @@ scalaVersionsByJvm in ThisBuild := {
   Map(
     8 -> List(v213 -> true),
     11 -> List(v213 -> false),
-    12 -> List(v213 -> false))
+    12 -> List(v213 -> false),
+    13 -> List(v213 -> false),
+    14 -> List(v213 -> false))
 }
 
 scalacOptions in ThisBuild ++= Seq("-deprecation", "-feature"/*, "-Xfatal-warnings"*/)
